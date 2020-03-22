@@ -1,0 +1,114 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BB3D78EB-925E-C604-7A2F-86AD412BE31B" name="Klient">
+<createdBy>Kuba</createdBy>
+<createdTime>2020-03-22 08:34:55 UTC</createdTime>
+<generatorID>B286E904-E658-3E3E-DD28-779DE3B9C2BF</generatorID>
+<ownerDesignName>Projekt_Bazy</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="0DD8C17A-D408-AD4B-CF26-679549CA1FED">
+<createdBy>Kuba</createdBy>
+<createdTime>2020-03-22 08:34:55 UTC</createdTime>
+<generatorID>BF5A079A-7BC7-B619-6092-0776D6A7EF22</generatorID>
+<ownerDesignName>Projekt_Bazy</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="imie" id="354499D1-E4C9-1D60-3578-D2BF09C1EE7F">
+<createdBy>Kuba</createdBy>
+<createdTime>2020-03-22 08:34:55 UTC</createdTime>
+<generatorID>E45CD507-C55D-6016-0EAA-7E27766DAB07</generatorID>
+<ownerDesignName>Projekt_Bazy</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>60,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nazwisko" id="D6BEEF66-35CA-E2EF-87A9-D0F460E26CA4">
+<createdBy>Kuba</createdBy>
+<createdTime>2020-03-22 08:34:55 UTC</createdTime>
+<generatorID>9F96003E-0DF5-9E37-BA4F-566FDD2C50DD</generatorID>
+<ownerDesignName>Projekt_Bazy</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>60,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="data_urodzin" id="C3542164-4DAD-625C-837F-505CD27A68AE">
+<createdBy>Kuba</createdBy>
+<createdTime>2020-03-22 08:34:55 UTC</createdTime>
+<generatorID>ABA62A3B-4F0C-F565-19D3-9CBDA017129C</generatorID>
+<ownerDesignName>Projekt_Bazy</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="numer_karty_kredytowej" id="F65F66E0-ABB1-2FD9-8BEB-B60EBFFA277A">
+<createdBy>Kuba</createdBy>
+<createdTime>2020-03-22 08:34:55 UTC</createdTime>
+<generatorID>8B058939-4C7E-CC7F-C481-8C50E55A0AD7</generatorID>
+<ownerDesignName>Projekt_Bazy</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>60,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Adres_id" id="53114E39-8D0B-9F84-7184-A468DF12DCF4">
+<createdBy>Kuba</createdBy>
+<createdTime>2020-03-22 08:34:55 UTC</createdTime>
+<generatorID>7B29344A-8838-5407-BBAA-75374268FD08</generatorID>
+<ownerDesignName>Projekt_Bazy</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5759806B-0AC3-C3FC-5C4B-6AAB0E993E7C" referredColumn="C1228A95-1D5D-9351-2DF8-E6FD17F15831"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6453B53E-C225-9041-7690-E66499D0ABBD" name="Klient_PK">
+<createdBy>Kuba</createdBy>
+<createdTime>2020-03-22 08:34:55 UTC</createdTime>
+<generatorID>3702B450-E4EC-955D-C763-57EE423C8930</generatorID>
+<ownerDesignName>Projekt_Bazy</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0DD8C17A-D408-AD4B-CF26-679549CA1FED"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="93EE687C-9470-DBCD-B587-867BFC735A38" name="Klient_Adres_FK">
+<createdBy>Kuba</createdBy>
+<createdTime>2020-03-22 08:34:55 UTC</createdTime>
+<generatorID>025E32BF-336C-9D84-70F1-311ACF5C0CE9</generatorID>
+<ownerDesignName>Projekt_Bazy</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="53114E39-8D0B-9F84-7184-A468DF12DCF4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

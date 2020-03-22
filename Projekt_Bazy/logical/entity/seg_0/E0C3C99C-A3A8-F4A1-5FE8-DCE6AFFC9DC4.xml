@@ -1,0 +1,128 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="E0C3C99C-A3A8-F4A1-5FE8-DCE6AFFC9DC4" name="Rezerwacja">
+<createdBy>Kuba</createdBy>
+<createdTime>2020-03-22 07:50:15 UTC</createdTime>
+<ownerDesignName>Projekt_Bazy</ownerDesignName>
+<engineerTo>
+<item key="9695EA97-BD08-E22E-7B43-5BA45CAC1879" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="EAB31BFB-ACB6-14A4-D8B5-34CFFE181289">
+<createdBy>Kuba</createdBy>
+<createdTime>2020-03-22 07:56:31 UTC</createdTime>
+<ownerDesignName>Projekt_Bazy</ownerDesignName>
+<engineerTo>
+<item key="9695EA97-BD08-E22E-7B43-5BA45CAC1879" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="data_początku_rezerawacji" id="B3C1DA1F-F0E7-715F-6D98-8E1517A5226D">
+<createdBy>Kuba</createdBy>
+<createdTime>2020-03-22 07:55:29 UTC</createdTime>
+<ownerDesignName>Projekt_Bazy</ownerDesignName>
+<engineerTo>
+<item key="9695EA97-BD08-E22E-7B43-5BA45CAC1879" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="data_konca_rezerwacji" id="7B655B2C-4ACF-0078-7F5A-BCD7447AFF99">
+<createdBy>Kuba</createdBy>
+<createdTime>2020-03-22 07:56:07 UTC</createdTime>
+<ownerDesignName>Projekt_Bazy</ownerDesignName>
+<engineerTo>
+<item key="9695EA97-BD08-E22E-7B43-5BA45CAC1879" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id1" id="E5DE9402-D9D8-86CC-AE2C-9A6DA639EE9E">
+<createdBy>Kuba</createdBy>
+<createdTime>2020-03-22 08:22:25 UTC</createdTime>
+<generatorID>98912C01-48FF-EB99-8F32-4284F1717D12</generatorID>
+<ownerDesignName>Projekt_Bazy</ownerDesignName>
+<engineerTo>
+<item key="9695EA97-BD08-E22E-7B43-5BA45CAC1879" value="true"/>
+</engineerTo>
+<referedAttribute>B0B2727C-7F84-67C5-3BD4-C0873C35750A</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id2" id="BAE75995-C2F3-9E6F-541A-739B2E9D396B">
+<createdBy>Kuba</createdBy>
+<createdTime>2020-03-22 08:23:35 UTC</createdTime>
+<generatorID>9590FFA6-ECD7-FD30-88CC-BD1C1D91D60A</generatorID>
+<ownerDesignName>Projekt_Bazy</ownerDesignName>
+<engineerTo>
+<item key="9695EA97-BD08-E22E-7B43-5BA45CAC1879" value="true"/>
+</engineerTo>
+<referedAttribute>BF5A079A-7BC7-B619-6092-0776D6A7EF22</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id3" id="BFE44A50-4E5B-A847-FCE2-3CB13CAC3FC9">
+<createdBy>Kuba</createdBy>
+<createdTime>2020-03-22 08:47:53 UTC</createdTime>
+<generatorID>B041027A-3441-950E-638E-7044A40B2117</generatorID>
+<ownerDesignName>Projekt_Bazy</ownerDesignName>
+<engineerTo>
+<item key="9695EA97-BD08-E22E-7B43-5BA45CAC1879" value="true"/>
+</engineerTo>
+<referedAttribute>E4216662-240B-D504-4A07-992397AD81F6</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id4" id="84795DCA-629B-23F0-A362-72C123E25369">
+<createdBy>Kuba</createdBy>
+<createdTime>2020-03-22 08:48:15 UTC</createdTime>
+<generatorID>1E9C4842-CD70-2949-B367-E9EC55E684BE</generatorID>
+<ownerDesignName>Projekt_Bazy</ownerDesignName>
+<engineerTo>
+<item key="9695EA97-BD08-E22E-7B43-5BA45CAC1879" value="true"/>
+</engineerTo>
+<referedAttribute>E4216662-240B-D504-4A07-992397AD81F6</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="997C4F6E-2F25-83CF-9E85-D7EA614F3E93" name="Rezerwacja PK">
+<createdBy>Kuba</createdBy>
+<createdTime>2020-03-22 07:56:58 UTC</createdTime>
+<ownerDesignName>Projekt_Bazy</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="9695EA97-BD08-E22E-7B43-5BA45CAC1879" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>EAB31BFB-ACB6-14A4-D8B5-34CFFE181289</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
