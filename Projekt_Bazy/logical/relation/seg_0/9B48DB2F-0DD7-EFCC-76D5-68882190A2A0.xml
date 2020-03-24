@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="lokalizacja_wypozyczenia" directorySegmentName="seg_0" id="B041027A-3441-950E-638E-7044A40B2117">
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_21" directorySegmentName="seg_0" id="9B48DB2F-0DD7-EFCC-76D5-68882190A2A0">
 <createdBy>Kuba</createdBy>
-<createdTime>2020-03-22 08:47:53 UTC</createdTime>
+<createdTime>2020-03-24 12:32:06 UTC</createdTime>
 <ownerDesignName>Projekt_Bazy</ownerDesignName>
 <engineerTo>
 <item key="9695EA97-BD08-E22E-7B43-5BA45CAC1879" value="true"/>

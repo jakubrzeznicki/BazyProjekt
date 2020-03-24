@@ -1,0 +1,71 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="41428434-1648-823D-A3F4-C998314436BC" name="Cennik">
+<createdBy>Kuba</createdBy>
+<createdTime>2020-03-24 12:03:43 UTC</createdTime>
+<ownerDesignName>Projekt_Bazy</ownerDesignName>
+<engineerTo>
+<item key="9695EA97-BD08-E22E-7B43-5BA45CAC1879" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="D3EBD04D-AE1B-1DFB-B3C8-C0A7EFE48918">
+<createdBy>Kuba</createdBy>
+<createdTime>2020-03-24 12:03:48 UTC</createdTime>
+<ownerDesignName>Projekt_Bazy</ownerDesignName>
+<engineerTo>
+<item key="9695EA97-BD08-E22E-7B43-5BA45CAC1879" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cena_za_godzine" id="B5BD1E49-2CEB-9967-3855-F7DC705BDC84">
+<createdBy>Kuba</createdBy>
+<createdTime>2020-03-24 12:03:58 UTC</createdTime>
+<ownerDesignName>Projekt_Bazy</ownerDesignName>
+<engineerTo>
+<item key="9695EA97-BD08-E22E-7B43-5BA45CAC1879" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cena_za_kilometr" id="E1AC0233-EF71-5243-8DA0-F22EE11E82BC">
+<createdBy>Kuba</createdBy>
+<createdTime>2020-03-24 12:04:17 UTC</createdTime>
+<ownerDesignName>Projekt_Bazy</ownerDesignName>
+<engineerTo>
+<item key="9695EA97-BD08-E22E-7B43-5BA45CAC1879" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="F793856B-5FA4-F2BC-E9A3-87C662D1B58F" name="Cennik PK">
+<createdBy>Kuba</createdBy>
+<createdTime>2020-03-24 12:03:56 UTC</createdTime>
+<ownerDesignName>Projekt_Bazy</ownerDesignName>
+<engineerTo>
+<item key="9695EA97-BD08-E22E-7B43-5BA45CAC1879" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>D3EBD04D-AE1B-1DFB-B3C8-C0A7EFE48918</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

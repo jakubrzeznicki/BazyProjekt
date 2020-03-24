@@ -1,8 +1,8 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="192FC92F-184C-454C-D3B9-DE8DF0564B91" containerWithKeyObject="17617391-DF8D-76E5-4055-3B9FE32D4174" localFKIndex="C3AD70AE-31C0-90F5-6288-35A062178E44" name="Rezerwacja_Lokalizacja_FKv1">
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="D86DCCDF-22B0-B8D7-31EF-8BF026AB9B85" containerWithKeyObject="17617391-DF8D-76E5-4055-3B9FE32D4174" localFKIndex="56FB068E-8000-DEC1-E11A-CDC47DE9F78E" name="Wypożyczenie_Lokalizacja_FKv1">
 <createdBy>Kuba</createdBy>
-<createdTime>2020-03-22 08:48:47 UTC</createdTime>
-<generatorID>1E9C4842-CD70-2949-B367-E9EC55E684BE</generatorID>
+<createdTime>2020-03-24 12:32:36 UTC</createdTime>
+<generatorID>9B48DB2F-0DD7-EFCC-76D5-68882190A2A0</generatorID>
 <ownerDesignName>Projekt_Bazy</ownerDesignName>
 <referredTableLongName>Lokalizacja</referredTableLongName>
 <deleteRule>NO ACTION</deleteRule>

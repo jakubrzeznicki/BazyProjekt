@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="94183BA1-B8F0-6F78-386A-0B80B9ACBD89" containerWithKeyObject="17617391-DF8D-76E5-4055-3B9FE32D4174" localFKIndex="5A115E76-543C-A2A4-80BB-0D2CAEBF66C4" name="Rezerwacja_Samochód_FK">
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="94183BA1-B8F0-6F78-386A-0B80B9ACBD89" containerWithKeyObject="17617391-DF8D-76E5-4055-3B9FE32D4174" localFKIndex="5A115E76-543C-A2A4-80BB-0D2CAEBF66C4" name="Wypożyczenie_Samochód_FK">
 <createdBy>Kuba</createdBy>
 <createdTime>2020-03-22 08:34:55 UTC</createdTime>
 <generatorID>98912C01-48FF-EB99-8F32-4284F1717D12</generatorID>

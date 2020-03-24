@@ -24,7 +24,6 @@
 <createdTime>2020-03-22 08:34:55 UTC</createdTime>
 <generatorID>B44A27E9-49C9-F8C3-1EBF-A982C3C523D8</generatorID>
 <ownerDesignName>Projekt_Bazy</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT007</logicalDatatype>
@@ -36,7 +35,6 @@
 <createdTime>2020-03-22 08:34:55 UTC</createdTime>
 <generatorID>B61FCE04-2F28-4DD5-CAA4-CC1539C4833C</generatorID>
 <ownerDesignName>Projekt_Bazy</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
@@ -49,14 +47,13 @@
 <createdTime>2020-03-22 08:34:55 UTC</createdTime>
 <generatorID>417FAC18-C098-681B-A75B-1D7CEC1111F1</generatorID>
 <ownerDesignName>Projekt_Bazy</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT021</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Rezerwacja_id" id="9B857E21-331C-3AE1-CBE3-4372741EA741">
+<Column name="Wypożyczenie_id" id="9B857E21-331C-3AE1-CBE3-4372741EA741">
 <createdBy>Kuba</createdBy>
 <createdTime>2020-03-22 08:34:55 UTC</createdTime>
 <generatorID>FF4C3C47-8288-C249-FE88-9F0CEE50D1DF</generatorID>
@@ -85,7 +82,7 @@
 <colUsage columnID="1FE4E845-F12C-47BE-8204-4EEAB6D35B42"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="040E389A-59F6-1FCB-72E6-E451CFF5D5BD" name="Płatność_Rezerwacja_FK">
+<ind_PK_UK id="040E389A-59F6-1FCB-72E6-E451CFF5D5BD" name="Płatność_Wypożyczenie_FK">
 <createdBy>Kuba</createdBy>
 <createdTime>2020-03-22 08:34:55 UTC</createdTime>
 <generatorID>010245CD-5FC3-261B-089E-7312CD282AFA</generatorID>

@@ -1,37 +1,14 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="17617391-DF8D-76E5-4055-3B9FE32D4174" name="Rezerwacja">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="17617391-DF8D-76E5-4055-3B9FE32D4174" name="Wypożyczenie">
 <createdBy>Kuba</createdBy>
 <createdTime>2020-03-22 08:34:55 UTC</createdTime>
 <generatorID>E0C3C99C-A3A8-F4A1-5FE8-DCE6AFFC9DC4</generatorID>
 <ownerDesignName>Projekt_Bazy</ownerDesignName>
+<ordsAlias>wypozyczenie</ordsAlias>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="data_początku_rezerawacji" id="69C26297-F43B-44C8-416A-2730B9FF86FA">
-<createdBy>Kuba</createdBy>
-<createdTime>2020-03-22 08:34:55 UTC</createdTime>
-<generatorID>B3C1DA1F-F0E7-715F-6D98-8E1517A5226D</generatorID>
-<ownerDesignName>Projekt_Bazy</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT007</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="data_konca_rezerwacji" id="307F5C0D-7F34-4672-0A01-AE3BFB9B8BA5">
-<createdBy>Kuba</createdBy>
-<createdTime>2020-03-22 08:34:55 UTC</createdTime>
-<generatorID>7B655B2C-4ACF-0078-7F5A-BCD7447AFF99</generatorID>
-<ownerDesignName>Projekt_Bazy</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT007</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
 <Column name="id" id="E84DFB70-DA1A-A3FD-216A-5DDC04D2FB78">
 <createdBy>Kuba</createdBy>
 <createdTime>2020-03-22 08:34:55 UTC</createdTime>
@@ -40,6 +17,28 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="data_początku_wypozyczenia" id="69C26297-F43B-44C8-416A-2730B9FF86FA">
+<createdBy>Kuba</createdBy>
+<createdTime>2020-03-22 08:34:55 UTC</createdTime>
+<generatorID>B3C1DA1F-F0E7-715F-6D98-8E1517A5226D</generatorID>
+<ownerDesignName>Projekt_Bazy</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="data_konca_wypozyczenia" id="307F5C0D-7F34-4672-0A01-AE3BFB9B8BA5">
+<createdBy>Kuba</createdBy>
+<createdTime>2020-03-22 08:34:55 UTC</createdTime>
+<generatorID>7B655B2C-4ACF-0078-7F5A-BCD7447AFF99</generatorID>
+<ownerDesignName>Projekt_Bazy</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
@@ -85,10 +84,21 @@
 <colAssociation fkAssociation="32C3DC7A-C14A-5D6C-C22F-61CE5C626855" referredColumn="0DD8C17A-D408-AD4B-CF26-679549CA1FED"/>
 </associations>
 </Column>
-<Column name="Lokalizacja_id" id="E5651BAF-574F-6AFF-C11D-86A3195B168B">
+<Column name="stan_licznika_przed" id="15650285-A049-5B37-5AC1-55585085327B">
 <createdBy>Kuba</createdBy>
-<createdTime>2020-03-22 08:48:47 UTC</createdTime>
-<generatorID>BFE44A50-4E5B-A847-FCE2-3CB13CAC3FC9</generatorID>
+<createdTime>2020-03-24 12:29:55 UTC</createdTime>
+<generatorID>4BE98E80-A8DE-EE05-7AD0-87D604120B61</generatorID>
+<ownerDesignName>Projekt_Bazy</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Cennik_id" id="3424994B-217A-AD21-A303-E382797760A0">
+<createdBy>Kuba</createdBy>
+<createdTime>2020-03-24 12:29:55 UTC</createdTime>
+<generatorID>700CF318-21C2-11F6-E498-01C3D93405E3</generatorID>
 <ownerDesignName>Projekt_Bazy</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -97,13 +107,13 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="5A8D69B4-D4C6-2912-B4C5-AE81365DEFBE" referredColumn="EA2207D3-6057-09B6-FC71-CFAE12E33973"/>
+<colAssociation fkAssociation="2856E089-C95C-C1FF-B464-A7C6861A2BE1" referredColumn="EA7C17F7-BDA6-B066-23D7-AD2BF7F4D0C6"/>
 </associations>
 </Column>
-<Column name="Lokalizacja_id1" id="A6A51CB1-195F-4D1C-4804-481644392AF6">
+<Column name="Pracownik_id" id="7768B7DA-FF7C-382E-DCF7-0907042EDD5B">
 <createdBy>Kuba</createdBy>
-<createdTime>2020-03-22 08:48:47 UTC</createdTime>
-<generatorID>84795DCA-629B-23F0-A362-72C123E25369</generatorID>
+<createdTime>2020-03-24 12:29:55 UTC</createdTime>
+<generatorID>9C6ADA56-4C77-733A-9F03-E14C6BB143B7</generatorID>
 <ownerDesignName>Projekt_Bazy</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -112,12 +122,42 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="192FC92F-184C-454C-D3B9-DE8DF0564B91" referredColumn="EA2207D3-6057-09B6-FC71-CFAE12E33973"/>
+<colAssociation fkAssociation="D12ED969-3A3C-5AA0-826B-C80CAC0022D4" referredColumn="4E1B145F-ED4A-EE42-C67B-B4400746824F"/>
+</associations>
+</Column>
+<Column name="Lokalizacja_Wypozyczenia_id" id="7FFA6F9A-ECFA-A56F-A03A-F79160370BDF">
+<createdBy>Kuba</createdBy>
+<createdTime>2020-03-24 12:32:36 UTC</createdTime>
+<generatorID>E94656F4-0D6D-61EC-25A2-5B4C9F08E640</generatorID>
+<ownerDesignName>Projekt_Bazy</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0576AEB2-40DF-4D4A-EF3E-F957F6587062" referredColumn="EA2207D3-6057-09B6-FC71-CFAE12E33973"/>
+</associations>
+</Column>
+<Column name="Lokalizacja_Zwrotu_id" id="CFF27199-6DA6-D42F-83B9-6312A67B3452">
+<createdBy>Kuba</createdBy>
+<createdTime>2020-03-24 12:41:49 UTC</createdTime>
+<generatorID>87AF9297-15B3-1F90-DDBA-88C6905A8148</generatorID>
+<ownerDesignName>Projekt_Bazy</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D86DCCDF-22B0-B8D7-31EF-8BF026AB9B85" referredColumn="EA2207D3-6057-09B6-FC71-CFAE12E33973"/>
 </associations>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="E7AD0F27-3F8C-1B66-E492-B82B4B03CC2B" name="Rezerwacja_PK">
+<ind_PK_UK id="E7AD0F27-3F8C-1B66-E492-B82B4B03CC2B" name="Wypożyczenie_PK">
 <createdBy>Kuba</createdBy>
 <createdTime>2020-03-22 08:34:55 UTC</createdTime>
 <generatorID>997C4F6E-2F25-83CF-9E85-D7EA614F3E93</generatorID>
@@ -129,7 +169,7 @@
 <colUsage columnID="E84DFB70-DA1A-A3FD-216A-5DDC04D2FB78"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="5A115E76-543C-A2A4-80BB-0D2CAEBF66C4" name="Rezerwacja_Samochód_FK">
+<ind_PK_UK id="5A115E76-543C-A2A4-80BB-0D2CAEBF66C4" name="Wypożyczenie_Samochód_FK">
 <createdBy>Kuba</createdBy>
 <createdTime>2020-03-22 08:34:55 UTC</createdTime>
 <generatorID>98912C01-48FF-EB99-8F32-4284F1717D12</generatorID>
@@ -140,7 +180,7 @@
 <colUsage columnID="40EBA2A5-4134-EEEB-6113-52F3725358C3"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="FCFF90D0-8577-3107-D88D-491ECDD08292" name="Rezerwacja_Klient_FK">
+<ind_PK_UK id="FCFF90D0-8577-3107-D88D-491ECDD08292" name="Wypożyczenie_Klient_FK">
 <createdBy>Kuba</createdBy>
 <createdTime>2020-03-22 08:34:55 UTC</createdTime>
 <generatorID>9590FFA6-ECD7-FD30-88CC-BD1C1D91D60A</generatorID>
@@ -151,26 +191,48 @@
 <colUsage columnID="E3FEA1BB-0EA1-90FB-0992-399190D73A3C"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="E2203145-F136-40EE-9041-5DE8DC5C2F22" name="Rezerwacja_Lokalizacja_FK">
+<ind_PK_UK id="77993D86-0172-3545-7887-BC1439160786" name="Wypożyczenie_Pracownik_FK">
 <createdBy>Kuba</createdBy>
-<createdTime>2020-03-22 08:48:47 UTC</createdTime>
-<generatorID>B041027A-3441-950E-638E-7044A40B2117</generatorID>
+<createdTime>2020-03-24 12:29:55 UTC</createdTime>
+<generatorID>E4AAD2A4-8D1F-B35A-A672-B2B041F8F819</generatorID>
 <ownerDesignName>Projekt_Bazy</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="E5651BAF-574F-6AFF-C11D-86A3195B168B"/>
+<colUsage columnID="7768B7DA-FF7C-382E-DCF7-0907042EDD5B"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="C3AD70AE-31C0-90F5-6288-35A062178E44" name="Rezerwacja_Lokalizacja_FKv1">
+<ind_PK_UK id="B91265B0-41CB-CECF-8280-6A23C41C83DD" name="Wypożyczenie_Cennik_FK">
 <createdBy>Kuba</createdBy>
-<createdTime>2020-03-22 08:48:47 UTC</createdTime>
-<generatorID>1E9C4842-CD70-2949-B367-E9EC55E684BE</generatorID>
+<createdTime>2020-03-24 12:29:55 UTC</createdTime>
+<generatorID>AA6D41A8-BE39-74ED-4787-4C3337C6B949</generatorID>
 <ownerDesignName>Projekt_Bazy</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="A6A51CB1-195F-4D1C-4804-481644392AF6"/>
+<colUsage columnID="3424994B-217A-AD21-A303-E382797760A0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7D34077F-7A21-7722-D7D5-5948944FB85D" name="Wypożyczenie_Lokalizacja_FK">
+<createdBy>Kuba</createdBy>
+<createdTime>2020-03-24 12:32:36 UTC</createdTime>
+<generatorID>5014F3AC-4784-82D3-0E8F-193E9B86C31E</generatorID>
+<ownerDesignName>Projekt_Bazy</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7FFA6F9A-ECFA-A56F-A03A-F79160370BDF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="56FB068E-8000-DEC1-E11A-CDC47DE9F78E" name="Wypożyczenie_Lokalizacja_FKv1">
+<createdBy>Kuba</createdBy>
+<createdTime>2020-03-24 12:32:36 UTC</createdTime>
+<generatorID>9B48DB2F-0DD7-EFCC-76D5-68882190A2A0</generatorID>
+<ownerDesignName>Projekt_Bazy</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CFF27199-6DA6-D42F-83B9-6312A67B3452"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

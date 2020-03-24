@@ -64,7 +64,6 @@
 <createdTime>2020-03-22 08:34:55 UTC</createdTime>
 <generatorID>C61641B2-18A3-6C3F-931C-D3AB51407FD1</generatorID>
 <ownerDesignName>Projekt_Bazy</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
@@ -76,7 +75,6 @@
 <createdTime>2020-03-22 08:34:55 UTC</createdTime>
 <generatorID>7701B9D2-E423-3CE1-98AD-A7D5A666A83F</generatorID>
 <ownerDesignName>Projekt_Bazy</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT007</logicalDatatype>
@@ -100,7 +98,6 @@
 <createdTime>2020-03-22 08:34:55 UTC</createdTime>
 <generatorID>746B00AD-B6CD-6A1D-36B6-CBFF033768FC</generatorID>
 <ownerDesignName>Projekt_Bazy</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>

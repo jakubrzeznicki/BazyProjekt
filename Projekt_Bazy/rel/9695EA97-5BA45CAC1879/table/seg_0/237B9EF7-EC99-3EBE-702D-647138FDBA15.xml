@@ -24,7 +24,6 @@
 <createdTime>2020-03-22 08:42:02 UTC</createdTime>
 <generatorID>07742923-8D2D-56D4-1BD9-B0F18AF8DF18</generatorID>
 <ownerDesignName>Projekt_Bazy</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
@@ -37,7 +36,6 @@
 <createdTime>2020-03-22 08:42:02 UTC</createdTime>
 <generatorID>070BDAC1-EC4B-B997-63EF-80004642694D</generatorID>
 <ownerDesignName>Projekt_Bazy</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
@@ -50,7 +48,6 @@
 <createdTime>2020-03-22 08:42:02 UTC</createdTime>
 <generatorID>5B9868B4-D41B-A9B0-07CC-3E1318CC72A8</generatorID>
 <ownerDesignName>Projekt_Bazy</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
@@ -63,7 +60,6 @@
 <createdTime>2020-03-22 08:42:02 UTC</createdTime>
 <generatorID>19A99388-09D3-4D9A-2AF0-EA5E721CD82C</generatorID>
 <ownerDesignName>Projekt_Bazy</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
@@ -76,7 +72,6 @@
 <createdTime>2020-03-22 08:42:02 UTC</createdTime>
 <generatorID>17900033-76C2-7CC7-DDFB-5812EF2CDD6D</generatorID>
 <ownerDesignName>Projekt_Bazy</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
@@ -86,7 +81,7 @@
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="819DE4C3-55DE-83AD-6117-49FF326AE2B5" name="Lokalizacja_PKv1">
+<ind_PK_UK id="819DE4C3-55DE-83AD-6117-49FF326AE2B5" name="Lokalizacja_PKv2">
 <createdBy>Kuba</createdBy>
 <createdTime>2020-03-22 08:42:02 UTC</createdTime>
 <generatorID>8F2C7F09-1DA7-50CF-51F5-55A5678CEB5D</generatorID>
