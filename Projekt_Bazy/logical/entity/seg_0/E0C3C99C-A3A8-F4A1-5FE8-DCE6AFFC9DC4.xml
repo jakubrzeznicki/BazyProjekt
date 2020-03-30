@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="E0C3C99C-A3A8-F4A1-5FE8-DCE6AFFC9DC4" name="Wypożyczenie">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="E0C3C99C-A3A8-F4A1-5FE8-DCE6AFFC9DC4" name="Wypozyczenie">
 <createdBy>Kuba</createdBy>
 <createdTime>2020-03-22 07:50:15 UTC</createdTime>
 <ownerDesignName>Projekt_Bazy</ownerDesignName>
@@ -63,7 +63,7 @@
 <logicalDatatype>LOGDT021</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="id1" id="E5DE9402-D9D8-86CC-AE2C-9A6DA639EE9E">
+<Attribute name="id_samochod" id="E5DE9402-D9D8-86CC-AE2C-9A6DA639EE9E">
 <createdBy>Kuba</createdBy>
 <createdTime>2020-03-22 08:22:25 UTC</createdTime>
 <generatorID>98912C01-48FF-EB99-8F32-4284F1717D12</generatorID>
@@ -77,7 +77,7 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="id2" id="BAE75995-C2F3-9E6F-541A-739B2E9D396B">
+<Attribute name="id_klient" id="BAE75995-C2F3-9E6F-541A-739B2E9D396B">
 <createdBy>Kuba</createdBy>
 <createdTime>2020-03-22 08:23:35 UTC</createdTime>
 <generatorID>9590FFA6-ECD7-FD30-88CC-BD1C1D91D60A</generatorID>
@@ -91,21 +91,7 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="id5" id="700CF318-21C2-11F6-E498-01C3D93405E3">
-<createdBy>Kuba</createdBy>
-<createdTime>2020-03-24 12:05:02 UTC</createdTime>
-<generatorID>AA6D41A8-BE39-74ED-4787-4C3337C6B949</generatorID>
-<ownerDesignName>Projekt_Bazy</ownerDesignName>
-<engineerTo>
-<item key="9695EA97-BD08-E22E-7B43-5BA45CAC1879" value="true"/>
-</engineerTo>
-<referedAttribute>D3EBD04D-AE1B-1DFB-B3C8-C0A7EFE48918</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="id6" id="9C6ADA56-4C77-733A-9F03-E14C6BB143B7">
+<Attribute name="id_pracownik" id="9C6ADA56-4C77-733A-9F03-E14C6BB143B7">
 <createdBy>Kuba</createdBy>
 <createdTime>2020-03-24 12:22:12 UTC</createdTime>
 <generatorID>E4AAD2A4-8D1F-B35A-A672-B2B041F8F819</generatorID>
@@ -119,7 +105,7 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="id3" id="E94656F4-0D6D-61EC-25A2-5B4C9F08E640">
+<Attribute name="id_lokalizacja_wypozyczenia" id="E94656F4-0D6D-61EC-25A2-5B4C9F08E640">
 <createdBy>Kuba</createdBy>
 <createdTime>2020-03-24 12:32:02 UTC</createdTime>
 <generatorID>5014F3AC-4784-82D3-0E8F-193E9B86C31E</generatorID>
@@ -133,7 +119,7 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="id4" id="87AF9297-15B3-1F90-DDBA-88C6905A8148">
+<Attribute name="id_lokalizacja_oddania" id="87AF9297-15B3-1F90-DDBA-88C6905A8148">
 <createdBy>Kuba</createdBy>
 <createdTime>2020-03-24 12:32:06 UTC</createdTime>
 <generatorID>9B48DB2F-0DD7-EFCC-76D5-68882190A2A0</generatorID>
@@ -149,7 +135,7 @@
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="997C4F6E-2F25-83CF-9E85-D7EA614F3E93" name="Rezerwacja PK">
+<identifier id="997C4F6E-2F25-83CF-9E85-D7EA614F3E93" name="Wypozyczenie PK">
 <createdBy>Kuba</createdBy>
 <createdTime>2020-03-22 07:56:58 UTC</createdTime>
 <ownerDesignName>Projekt_Bazy</ownerDesignName>
@@ -158,6 +144,7 @@
 <item key="9695EA97-BD08-E22E-7B43-5BA45CAC1879" value="false"/>
 </engineerTo>
 <pk>true</pk>
+<newElementsIDs>EAB31BFB-ACB6-14A4-D8B5-34CFFE181289</newElementsIDs>
 <usedAttributes>
 <attributeRef>EAB31BFB-ACB6-14A4-D8B5-34CFFE181289</attributeRef>
 </usedAttributes>

@@ -1,17 +1,17 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="AA432EA1-77D7-8AD0-7414-3AC8224BEC5B" name="Cennik">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B0D99221-AE9D-E294-D8B1-DA5DD2C5CE74" name="Samochod_Kategoria">
 <createdBy>Kuba</createdBy>
-<createdTime>2020-03-24 12:29:55 UTC</createdTime>
-<generatorID>41428434-1648-823D-A3F4-C998314436BC</generatorID>
+<createdTime>2020-03-30 08:26:26 UTC</createdTime>
+<generatorID>288DC487-7142-70B0-34A9-09EF53B380B5</generatorID>
 <ownerDesignName>Projekt_Bazy</ownerDesignName>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="id" id="EA7C17F7-BDA6-B066-23D7-AD2BF7F4D0C6">
+<Column name="id" id="48D53500-5765-37C1-7153-EE1879AD0386">
 <createdBy>Kuba</createdBy>
-<createdTime>2020-03-24 12:29:55 UTC</createdTime>
-<generatorID>D3EBD04D-AE1B-1DFB-B3C8-C0A7EFE48918</generatorID>
+<createdTime>2020-03-30 08:26:26 UTC</createdTime>
+<generatorID>1D0A0CBE-45EE-F78A-C51B-81F7334F70CC</generatorID>
 <ownerDesignName>Projekt_Bazy</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -19,42 +19,43 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="cena_za_godzine" id="E0DB9804-943E-CF9F-7D2D-C8964079399C">
+<Column name="cena_za_godzine" id="BECE84E3-516F-49FA-0C52-433D75B52288">
 <createdBy>Kuba</createdBy>
-<createdTime>2020-03-24 12:29:55 UTC</createdTime>
-<generatorID>B5BD1E49-2CEB-9967-3855-F7DC705BDC84</generatorID>
+<createdTime>2020-03-30 08:26:26 UTC</createdTime>
+<generatorID>35EF5CEF-0665-D3B9-30B6-8239F119B0BD</generatorID>
 <ownerDesignName>Projekt_Bazy</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT021</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>28</dataTypePrecision>
+<ownDataTypeParameters>,28,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="cena_za_kilometr" id="7DD896A3-0159-7D67-C936-7A280FEA6646">
+<Column name="cena_za_dzien" id="C6D2957B-1796-5239-4CE3-05ACEF47197F">
 <createdBy>Kuba</createdBy>
-<createdTime>2020-03-24 12:29:55 UTC</createdTime>
-<generatorID>E1AC0233-EF71-5243-8DA0-F22EE11E82BC</generatorID>
+<createdTime>2020-03-30 08:26:26 UTC</createdTime>
+<generatorID>CCB430C7-5F9D-D798-A161-12CD68CDA03F</generatorID>
 <ownerDesignName>Projekt_Bazy</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT021</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>28</dataTypePrecision>
+<ownDataTypeParameters>,28,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="8F4E6DB5-F310-A9D8-D6FD-959A801B1EAE" name="Cennik_PK">
+<ind_PK_UK id="A0DF8081-3AB1-BE14-68E0-0A2AE2E22232" name="Samochod_Kategoria_PK">
 <createdBy>Kuba</createdBy>
-<createdTime>2020-03-24 12:29:55 UTC</createdTime>
-<generatorID>F793856B-5FA4-F2BC-E9A3-87C662D1B58F</generatorID>
+<createdTime>2020-03-30 08:26:26 UTC</createdTime>
+<generatorID>FFAFB5A3-6943-6CBB-0144-3B0D053396E9</generatorID>
 <ownerDesignName>Projekt_Bazy</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="EA7C17F7-BDA6-B066-23D7-AD2BF7F4D0C6"/>
+<colUsage columnID="48D53500-5765-37C1-7153-EE1879AD0386"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

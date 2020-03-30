@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="1F8B8615-1A54-5808-698E-35D09170A004" name="Płatność">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="1F8B8615-1A54-5808-698E-35D09170A004" name="Platnosc">
 <createdBy>Kuba</createdBy>
 <createdTime>2020-03-22 07:50:37 UTC</createdTime>
 <ownerDesignName>Projekt_Bazy</ownerDesignName>
@@ -64,7 +64,7 @@
 <logicalDatatype>LOGDT021</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="id1" id="FF4C3C47-8288-C249-FE88-9F0CEE50D1DF">
+<Attribute name="id_wypozyczenie" id="FF4C3C47-8288-C249-FE88-9F0CEE50D1DF">
 <createdBy>Kuba</createdBy>
 <createdTime>2020-03-22 08:26:46 UTC</createdTime>
 <generatorID>010245CD-5FC3-261B-089E-7312CD282AFA</generatorID>
@@ -80,7 +80,7 @@
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="4CBBE90F-3EB6-5EA0-5F23-FB8B22A559BB" name="Płatność PK">
+<identifier id="4CBBE90F-3EB6-5EA0-5F23-FB8B22A559BB" name="Platnosc PK">
 <createdBy>Kuba</createdBy>
 <createdTime>2020-03-22 08:13:07 UTC</createdTime>
 <ownerDesignName>Projekt_Bazy</ownerDesignName>
@@ -89,6 +89,7 @@
 <item key="9695EA97-BD08-E22E-7B43-5BA45CAC1879" value="false"/>
 </engineerTo>
 <pk>true</pk>
+<newElementsIDs>F667C839-6F39-0183-50AC-A6D4B0C7F312</newElementsIDs>
 <usedAttributes>
 <attributeRef>F667C839-6F39-0183-50AC-A6D4B0C7F312</attributeRef>
 </usedAttributes>

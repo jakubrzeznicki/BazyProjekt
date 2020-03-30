@@ -78,6 +78,18 @@
 <dataTypeSize>60</dataTypeSize>
 <ownDataTypeParameters>60,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="data_zatrudnienia" id="712E13A7-AC5C-3F7A-86C8-6CB8A38AA157">
+<createdBy>Kuba</createdBy>
+<createdTime>2020-03-24 12:15:03 UTC</createdTime>
+<ownerDesignName>Projekt_Bazy</ownerDesignName>
+<engineerTo>
+<item key="9695EA97-BD08-E22E-7B43-5BA45CAC1879" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 <Attribute name="pensja" id="4463D965-108C-5C67-7198-54D7E94EF518">
 <createdBy>Kuba</createdBy>
 <createdTime>2020-03-24 12:12:36 UTC</createdTime>
@@ -89,18 +101,6 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="data_zatrudnienia" id="712E13A7-AC5C-3F7A-86C8-6CB8A38AA157">
-<createdBy>Kuba</createdBy>
-<createdTime>2020-03-24 12:15:03 UTC</createdTime>
-<ownerDesignName>Projekt_Bazy</ownerDesignName>
-<engineerTo>
-<item key="9695EA97-BD08-E22E-7B43-5BA45CAC1879" value="true"/>
-</engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT007</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="email" id="45344DDC-04BC-49F9-1594-0369D2FB809E">
@@ -131,9 +131,23 @@
 <dataTypeSize>45</dataTypeSize>
 <ownDataTypeParameters>45,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="id_lokalizacja" id="AE3877C2-71A6-7E64-5AC2-B96BCF74DC2C">
+<createdBy>Kuba</createdBy>
+<createdTime>2020-03-30 08:20:19 UTC</createdTime>
+<generatorID>16C9E867-02A5-C6F5-9211-F39CB7E3EEA1</generatorID>
+<ownerDesignName>Projekt_Bazy</ownerDesignName>
+<engineerTo>
+<item key="9695EA97-BD08-E22E-7B43-5BA45CAC1879" value="true"/>
+</engineerTo>
+<referedAttribute>E4216662-240B-D504-4A07-992397AD81F6</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="B6EB3A66-C10B-95D6-A425-99DBE91B83C3" name="Klient PK">
+<identifier id="B6EB3A66-C10B-95D6-A425-99DBE91B83C3" name="Pracownik PK">
 <createdBy>Kuba</createdBy>
 <createdTime>2020-03-24 12:11:31 UTC</createdTime>
 <ownerDesignName>Projekt_Bazy</ownerDesignName>
@@ -142,6 +156,7 @@
 <item key="9695EA97-BD08-E22E-7B43-5BA45CAC1879" value="false"/>
 </engineerTo>
 <pk>true</pk>
+<newElementsIDs>F8B5D364-22E8-BE89-A431-DCDFA9532249</newElementsIDs>
 <usedAttributes>
 <attributeRef>F8B5D364-22E8-BE89-A431-DCDFA9532249</attributeRef>
 </usedAttributes>

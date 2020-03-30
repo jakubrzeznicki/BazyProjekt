@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="41428434-1648-823D-A3F4-C998314436BC" name="Cennik">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="288DC487-7142-70B0-34A9-09EF53B380B5" name="Samochod_Kategoria">
 <createdBy>Kuba</createdBy>
-<createdTime>2020-03-24 12:03:43 UTC</createdTime>
+<createdTime>2020-03-30 07:25:39 UTC</createdTime>
 <ownerDesignName>Projekt_Bazy</ownerDesignName>
 <engineerTo>
 <item key="9695EA97-BD08-E22E-7B43-5BA45CAC1879" value="true"/>
@@ -15,9 +15,9 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="id" id="D3EBD04D-AE1B-1DFB-B3C8-C0A7EFE48918">
+<Attribute name="id" id="1D0A0CBE-45EE-F78A-C51B-81F7334F70CC">
 <createdBy>Kuba</createdBy>
-<createdTime>2020-03-24 12:03:48 UTC</createdTime>
+<createdTime>2020-03-30 07:25:51 UTC</createdTime>
 <ownerDesignName>Projekt_Bazy</ownerDesignName>
 <engineerTo>
 <item key="9695EA97-BD08-E22E-7B43-5BA45CAC1879" value="true"/>
@@ -27,22 +27,22 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="cena_za_godzine" id="B5BD1E49-2CEB-9967-3855-F7DC705BDC84">
+<Attribute name="cena_za_godzine" id="35EF5CEF-0665-D3B9-30B6-8239F119B0BD">
 <createdBy>Kuba</createdBy>
-<createdTime>2020-03-24 12:03:58 UTC</createdTime>
+<createdTime>2020-03-30 07:26:12 UTC</createdTime>
 <ownerDesignName>Projekt_Bazy</ownerDesignName>
 <engineerTo>
 <item key="9695EA97-BD08-E22E-7B43-5BA45CAC1879" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT021</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>28</dataTypePrecision>
+<ownDataTypeParameters>,28,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="cena_za_kilometr" id="E1AC0233-EF71-5243-8DA0-F22EE11E82BC">
+<Attribute name="cena_za_dzien" id="CCB430C7-5F9D-D798-A161-12CD68CDA03F">
 <createdBy>Kuba</createdBy>
-<createdTime>2020-03-24 12:04:17 UTC</createdTime>
+<createdTime>2020-03-30 07:29:05 UTC</createdTime>
 <ownerDesignName>Projekt_Bazy</ownerDesignName>
 <engineerTo>
 <item key="9695EA97-BD08-E22E-7B43-5BA45CAC1879" value="true"/>
@@ -50,21 +50,22 @@
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT021</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>28</dataTypePrecision>
+<ownDataTypeParameters>,28,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="F793856B-5FA4-F2BC-E9A3-87C662D1B58F" name="Cennik PK">
+<identifier id="FFAFB5A3-6943-6CBB-0144-3B0D053396E9" name="Samochod_Kategoria PK">
 <createdBy>Kuba</createdBy>
-<createdTime>2020-03-24 12:03:56 UTC</createdTime>
+<createdTime>2020-03-30 07:26:09 UTC</createdTime>
 <ownerDesignName>Projekt_Bazy</ownerDesignName>
 <engineerTo>
 <item key="9695EA97-BD08-E22E-7B43-5BA45CAC1879" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>D3EBD04D-AE1B-1DFB-B3C8-C0A7EFE48918</attributeRef>
+<attributeRef>1D0A0CBE-45EE-F78A-C51B-81F7334F70CC</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

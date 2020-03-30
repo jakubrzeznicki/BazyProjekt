@@ -1,16 +1,16 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1EA2AADB-EA7A-C2C2-3930-267D6167F64E" name="Płatność">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="71B2A87E-7876-CE91-865E-4E9EE891747B" name="Platnosc">
 <createdBy>Kuba</createdBy>
-<createdTime>2020-03-22 08:34:55 UTC</createdTime>
+<createdTime>2020-03-30 08:26:26 UTC</createdTime>
 <generatorID>1F8B8615-1A54-5808-698E-35D09170A004</generatorID>
 <ownerDesignName>Projekt_Bazy</ownerDesignName>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="id" id="1FE4E845-F12C-47BE-8204-4EEAB6D35B42">
+<Column name="id" id="94CDB0E2-81F8-54F6-61F7-2E1D22B3BB9B">
 <createdBy>Kuba</createdBy>
-<createdTime>2020-03-22 08:34:55 UTC</createdTime>
+<createdTime>2020-03-30 08:26:26 UTC</createdTime>
 <generatorID>F667C839-6F39-0183-50AC-A6D4B0C7F312</generatorID>
 <ownerDesignName>Projekt_Bazy</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
@@ -19,9 +19,9 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="data" id="E3ADFFE1-F4BC-935A-3D5C-CDEE64F676C1">
+<Column name="data" id="63CB42B9-9249-284C-79F9-61A5310755C3">
 <createdBy>Kuba</createdBy>
-<createdTime>2020-03-22 08:34:55 UTC</createdTime>
+<createdTime>2020-03-30 08:26:26 UTC</createdTime>
 <generatorID>B44A27E9-49C9-F8C3-1EBF-A982C3C523D8</generatorID>
 <ownerDesignName>Projekt_Bazy</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
@@ -30,9 +30,9 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="status" id="47670EA2-D0BC-4D2A-564A-DEE1D375A7FB">
+<Column name="status" id="41CFDB26-4027-16BB-A74A-AE714918E4A3">
 <createdBy>Kuba</createdBy>
-<createdTime>2020-03-22 08:34:55 UTC</createdTime>
+<createdTime>2020-03-30 08:26:26 UTC</createdTime>
 <generatorID>B61FCE04-2F28-4DD5-CAA4-CC1539C4833C</generatorID>
 <ownerDesignName>Projekt_Bazy</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
@@ -42,9 +42,9 @@
 <ownDataTypeParameters>1,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="kwota_platnosci" id="414D708D-D1FE-0758-C17C-5E775AD08227">
+<Column name="kwota_platnosci" id="E14253A7-AF12-1432-5A2B-8B4D86B2BF81">
 <createdBy>Kuba</createdBy>
-<createdTime>2020-03-22 08:34:55 UTC</createdTime>
+<createdTime>2020-03-30 08:26:26 UTC</createdTime>
 <generatorID>417FAC18-C098-681B-A75B-1D7CEC1111F1</generatorID>
 <ownerDesignName>Projekt_Bazy</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
@@ -53,9 +53,9 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Wypożyczenie_id" id="9B857E21-331C-3AE1-CBE3-4372741EA741">
+<Column name="Wypozyczenie_id" id="B7FE983D-7E42-E408-D867-0B8153656395">
 <createdBy>Kuba</createdBy>
-<createdTime>2020-03-22 08:34:55 UTC</createdTime>
+<createdTime>2020-03-30 08:26:26 UTC</createdTime>
 <generatorID>FF4C3C47-8288-C249-FE88-9F0CEE50D1DF</generatorID>
 <ownerDesignName>Projekt_Bazy</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
@@ -65,32 +65,32 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="04290490-676A-C5AE-761A-AFC4A6D537A6" referredColumn="E84DFB70-DA1A-A3FD-216A-5DDC04D2FB78"/>
+<colAssociation fkAssociation="1CAE2C83-2029-EE3B-99F1-6F027F2BC753" referredColumn="C9AC6307-0F03-474C-052E-E28022349687"/>
 </associations>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="5ABCB3C6-BAFC-EB66-9822-35B013743AB8" name="Płatność_PK">
+<ind_PK_UK id="067A77E4-1450-898F-BB86-4F7DFE58E85D" name="Platnosc_PK">
 <createdBy>Kuba</createdBy>
-<createdTime>2020-03-22 08:34:55 UTC</createdTime>
+<createdTime>2020-03-30 08:26:26 UTC</createdTime>
 <generatorID>4CBBE90F-3EB6-5EA0-5F23-FB8B22A559BB</generatorID>
 <ownerDesignName>Projekt_Bazy</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="1FE4E845-F12C-47BE-8204-4EEAB6D35B42"/>
+<colUsage columnID="94CDB0E2-81F8-54F6-61F7-2E1D22B3BB9B"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="040E389A-59F6-1FCB-72E6-E451CFF5D5BD" name="Płatność_Wypożyczenie_FK">
+<ind_PK_UK id="419E3206-FBFF-8671-9E92-CD871F7DC210" name="Platnosc_Wypozyczenie_FK">
 <createdBy>Kuba</createdBy>
-<createdTime>2020-03-22 08:34:55 UTC</createdTime>
+<createdTime>2020-03-30 08:26:26 UTC</createdTime>
 <generatorID>010245CD-5FC3-261B-089E-7312CD282AFA</generatorID>
 <ownerDesignName>Projekt_Bazy</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="9B857E21-331C-3AE1-CBE3-4372741EA741"/>
+<colUsage columnID="B7FE983D-7E42-E408-D867-0B8153656395"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>
