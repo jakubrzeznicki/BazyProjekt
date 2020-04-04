@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="1F8B8615-1A54-5808-698E-35D09170A004" name="Platnosc">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="1F8B8615-1A54-5808-698E-35D09170A004" name="Rodzaj_Platnosci">
 <createdBy>Kuba</createdBy>
 <createdTime>2020-03-22 07:50:37 UTC</createdTime>
 <ownerDesignName>Projekt_Bazy</ownerDesignName>
@@ -27,6 +27,18 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="nazwa" id="417FAC18-C098-681B-A75B-1D7CEC1111F1">
+<createdBy>Kuba</createdBy>
+<createdTime>2020-03-22 08:13:38 UTC</createdTime>
+<ownerDesignName>Projekt_Bazy</ownerDesignName>
+<engineerTo>
+<item key="9695EA97-BD08-E22E-7B43-5BA45CAC1879" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 <Attribute name="data" id="B44A27E9-49C9-F8C3-1EBF-A982C3C523D8">
 <createdBy>Kuba</createdBy>
 <createdTime>2020-03-22 08:13:09 UTC</createdTime>
@@ -37,45 +49,6 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT007</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="status" id="B61FCE04-2F28-4DD5-CAA4-CC1539C4833C">
-<createdBy>Kuba</createdBy>
-<createdTime>2020-03-22 08:13:22 UTC</createdTime>
-<ownerDesignName>Projekt_Bazy</ownerDesignName>
-<engineerTo>
-<item key="9695EA97-BD08-E22E-7B43-5BA45CAC1879" value="true"/>
-</engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>1</dataTypeSize>
-<ownDataTypeParameters>1,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="kwota_platnosci" id="417FAC18-C098-681B-A75B-1D7CEC1111F1">
-<createdBy>Kuba</createdBy>
-<createdTime>2020-03-22 08:13:38 UTC</createdTime>
-<ownerDesignName>Projekt_Bazy</ownerDesignName>
-<engineerTo>
-<item key="9695EA97-BD08-E22E-7B43-5BA45CAC1879" value="true"/>
-</engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT021</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="id_wypozyczenie" id="FF4C3C47-8288-C249-FE88-9F0CEE50D1DF">
-<createdBy>Kuba</createdBy>
-<createdTime>2020-03-22 08:26:46 UTC</createdTime>
-<generatorID>010245CD-5FC3-261B-089E-7312CD282AFA</generatorID>
-<ownerDesignName>Projekt_Bazy</ownerDesignName>
-<engineerTo>
-<item key="9695EA97-BD08-E22E-7B43-5BA45CAC1879" value="true"/>
-</engineerTo>
-<referedAttribute>EAB31BFB-ACB6-14A4-D8B5-34CFFE181289</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>

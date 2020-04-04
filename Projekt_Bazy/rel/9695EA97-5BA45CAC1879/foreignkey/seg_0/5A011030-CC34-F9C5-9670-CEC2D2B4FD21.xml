@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="5A011030-CC34-F9C5-9670-CEC2D2B4FD21" containerWithKeyObject="CC806504-FFA2-EF5F-8984-E408F71D0B83" localFKIndex="33A2CCA5-5089-13CD-C448-9A386CA30300" name="Wypozyczenie_Rodzaj_Platnosci_FK">
+<createdBy>Kuba</createdBy>
+<createdTime>2020-03-31 14:31:06 UTC</createdTime>
+<generatorID>010245CD-5FC3-261B-089E-7312CD282AFA</generatorID>
+<ownerDesignName>Projekt_Bazy</ownerDesignName>
+<referredTableLongName>Rodzaj_Platnosci</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>99DFEF4A-DD22-3906-5CAD-63F5734824AD</referredTableID>
+<keyObject>8D10A60D-ED54-7845-A121-D9637260D8D1</keyObject>
+<referredKeyID>8D10A60D-ED54-7845-A121-D9637260D8D1</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

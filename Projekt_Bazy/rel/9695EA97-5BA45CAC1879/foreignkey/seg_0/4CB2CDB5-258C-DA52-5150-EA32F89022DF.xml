@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="4CB2CDB5-258C-DA52-5150-EA32F89022DF" containerWithKeyObject="CC806504-FFA2-EF5F-8984-E408F71D0B83" localFKIndex="2137EA28-4FBD-A5C0-E068-3F86CDBA0D94" name="Wypozyczenie_Samochod_FK">
+<createdBy>Kuba</createdBy>
+<createdTime>2020-03-31 14:31:06 UTC</createdTime>
+<generatorID>98912C01-48FF-EB99-8F32-4284F1717D12</generatorID>
+<ownerDesignName>Projekt_Bazy</ownerDesignName>
+<referredTableLongName>Samochod</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>14A7B9B3-E28C-21D1-EA98-A9E80AC65A69</referredTableID>
+<keyObject>12E7F15C-37F8-754E-9EA3-E613D7896A7F</keyObject>
+<referredKeyID>12E7F15C-37F8-754E-9EA3-E613D7896A7F</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

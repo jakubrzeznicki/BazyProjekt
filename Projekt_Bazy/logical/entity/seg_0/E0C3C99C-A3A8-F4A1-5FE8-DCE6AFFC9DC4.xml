@@ -51,6 +51,19 @@
 <logicalDatatype>LOGDT007</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="kwota_platnosci" id="4D1D1449-6AC9-BFA9-7412-6B17968CEE25">
+<createdBy>Kuba</createdBy>
+<createdTime>2020-03-31 14:15:24 UTC</createdTime>
+<ownerDesignName>Projekt_Bazy</ownerDesignName>
+<engineerTo>
+<item key="9695EA97-BD08-E22E-7B43-5BA45CAC1879" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>28</dataTypePrecision>
+<ownDataTypeParameters>,28,</ownDataTypeParameters>
+</Attribute>
 <Attribute name="stan_licznika_przed" id="4BE98E80-A8DE-EE05-7AD0-87D604120B61">
 <createdBy>Kuba</createdBy>
 <createdTime>2020-03-24 12:02:40 UTC</createdTime>
@@ -128,6 +141,21 @@
 <item key="9695EA97-BD08-E22E-7B43-5BA45CAC1879" value="true"/>
 </engineerTo>
 <referedAttribute>E4216662-240B-D504-4A07-992397AD81F6</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_rodzaj_platnosci" id="E51E2DFE-59CE-6766-C13C-C7C90A1310C2">
+<createdBy>Kuba</createdBy>
+<createdTime>2020-03-31 14:15:06 UTC</createdTime>
+<generatorID>010245CD-5FC3-261B-089E-7312CD282AFA</generatorID>
+<ownerDesignName>Projekt_Bazy</ownerDesignName>
+<engineerTo>
+<item key="9695EA97-BD08-E22E-7B43-5BA45CAC1879" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>F667C839-6F39-0183-50AC-A6D4B0C7F312</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>

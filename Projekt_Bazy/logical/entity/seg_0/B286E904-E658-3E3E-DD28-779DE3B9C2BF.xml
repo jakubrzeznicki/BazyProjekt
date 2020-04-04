@@ -78,58 +78,6 @@
 <dataTypeSize>60</dataTypeSize>
 <ownDataTypeParameters>60,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="ulica" id="BEB2B46B-B7BC-5D8D-97D2-32DECC7AF5F9">
-<createdBy>Kuba</createdBy>
-<createdTime>2020-03-24 12:17:59 UTC</createdTime>
-<ownerDesignName>Projekt_Bazy</ownerDesignName>
-<engineerTo>
-<item key="9695EA97-BD08-E22E-7B43-5BA45CAC1879" value="true"/>
-</engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>60</dataTypeSize>
-<ownDataTypeParameters>60,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="miasto" id="FAD6CAFA-1323-9385-6405-F0D7E5667EB2">
-<createdBy>Kuba</createdBy>
-<createdTime>2020-03-24 12:18:09 UTC</createdTime>
-<ownerDesignName>Projekt_Bazy</ownerDesignName>
-<engineerTo>
-<item key="9695EA97-BD08-E22E-7B43-5BA45CAC1879" value="true"/>
-</engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>60</dataTypeSize>
-<ownDataTypeParameters>60,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="numer_domu" id="052C3FE5-F5EC-74EC-EAF8-84F1093835D5">
-<createdBy>Kuba</createdBy>
-<createdTime>2020-03-24 12:18:33 UTC</createdTime>
-<ownerDesignName>Projekt_Bazy</ownerDesignName>
-<engineerTo>
-<item key="9695EA97-BD08-E22E-7B43-5BA45CAC1879" value="true"/>
-</engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>5</dataTypeSize>
-<ownDataTypeParameters>5,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="kod_pocztowy" id="06F846B3-8178-9368-EF6A-A46320DACE4C">
-<createdBy>Kuba</createdBy>
-<createdTime>2020-03-24 12:19:00 UTC</createdTime>
-<ownerDesignName>Projekt_Bazy</ownerDesignName>
-<engineerTo>
-<item key="9695EA97-BD08-E22E-7B43-5BA45CAC1879" value="true"/>
-</engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>10</dataTypeSize>
-<ownDataTypeParameters>10,,</ownDataTypeParameters>
-</Attribute>
 <Attribute name="email" id="7BAF1E4B-C802-5AB3-C511-9C7579DFF60E">
 <createdBy>Kuba</createdBy>
 <createdTime>2020-03-24 12:19:16 UTC</createdTime>
@@ -157,6 +105,20 @@
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>45</dataTypeSize>
 <ownDataTypeParameters>45,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_lokalizacja" id="F37D9A36-FC17-92AE-A81A-B2E7E3010659">
+<createdBy>Kuba</createdBy>
+<createdTime>2020-03-31 14:22:36 UTC</createdTime>
+<generatorID>44B16561-1ADB-B1EA-C932-17C3C2F5901D</generatorID>
+<ownerDesignName>Projekt_Bazy</ownerDesignName>
+<engineerTo>
+<item key="9695EA97-BD08-E22E-7B43-5BA45CAC1879" value="true"/>
+</engineerTo>
+<referedAttribute>E4216662-240B-D504-4A07-992397AD81F6</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">

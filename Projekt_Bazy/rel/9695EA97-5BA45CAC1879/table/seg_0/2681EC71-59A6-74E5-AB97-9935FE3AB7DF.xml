@@ -1,27 +1,29 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="AF4C04FC-C1C8-9E57-B8F5-935FA3C41EF0" name="Klient">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2681EC71-59A6-74E5-AB97-9935FE3AB7DF" name="Klient">
 <createdBy>Kuba</createdBy>
-<createdTime>2020-03-30 08:26:26 UTC</createdTime>
+<createdTime>2020-03-31 14:31:06 UTC</createdTime>
 <generatorID>B286E904-E658-3E3E-DD28-779DE3B9C2BF</generatorID>
 <ownerDesignName>Projekt_Bazy</ownerDesignName>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="id" id="3AE0C62F-7E42-D58F-881E-807CAB61A3CC">
+<Column name="id" id="3C2093C8-49A2-795B-D316-A1F487A479ED">
 <createdBy>Kuba</createdBy>
-<createdTime>2020-03-30 08:26:26 UTC</createdTime>
+<createdTime>2020-03-31 14:31:06 UTC</createdTime>
 <generatorID>BF5A079A-7BC7-B619-6092-0776D6A7EF22</generatorID>
 <ownerDesignName>Projekt_Bazy</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="imie" id="E7EA6708-494A-5ADD-EBFB-98FC2FE51DBD">
+<Column name="imie" id="AC660A55-22E6-F9C2-FBCC-65A256A8A41F">
 <createdBy>Kuba</createdBy>
-<createdTime>2020-03-30 08:26:26 UTC</createdTime>
+<createdTime>2020-03-31 14:31:06 UTC</createdTime>
 <generatorID>E45CD507-C55D-6016-0EAA-7E27766DAB07</generatorID>
 <ownerDesignName>Projekt_Bazy</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
@@ -31,9 +33,9 @@
 <ownDataTypeParameters>60,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="nazwisko" id="0C82AB5D-96B5-CF6C-EDDF-529576375D6A">
+<Column name="nazwisko" id="C7075A7E-B86E-94D2-A604-B2DE5EFDEE68">
 <createdBy>Kuba</createdBy>
-<createdTime>2020-03-30 08:26:26 UTC</createdTime>
+<createdTime>2020-03-31 14:31:06 UTC</createdTime>
 <generatorID>9F96003E-0DF5-9E37-BA4F-566FDD2C50DD</generatorID>
 <ownerDesignName>Projekt_Bazy</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
@@ -43,9 +45,9 @@
 <ownDataTypeParameters>60,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="data_urodzin" id="AFA35B0A-A3D8-57E3-FA74-F7841DA97762">
+<Column name="data_urodzin" id="BEE87A07-A23A-3AFA-14F0-1B9823811316">
 <createdBy>Kuba</createdBy>
-<createdTime>2020-03-30 08:26:26 UTC</createdTime>
+<createdTime>2020-03-31 14:31:06 UTC</createdTime>
 <generatorID>ABA62A3B-4F0C-F565-19D3-9CBDA017129C</generatorID>
 <ownerDesignName>Projekt_Bazy</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
@@ -54,9 +56,9 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="numer_karty_kredytowej" id="8841C516-C104-3B6F-BBC1-F4B4833859CE">
+<Column name="numer_karty_kredytowej" id="F916A605-58B7-7AD3-F2C0-9A4BB68885CB">
 <createdBy>Kuba</createdBy>
-<createdTime>2020-03-30 08:26:26 UTC</createdTime>
+<createdTime>2020-03-31 14:31:06 UTC</createdTime>
 <generatorID>8B058939-4C7E-CC7F-C481-8C50E55A0AD7</generatorID>
 <ownerDesignName>Projekt_Bazy</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
@@ -66,57 +68,9 @@
 <ownDataTypeParameters>60,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="ulica" id="F3CE2216-A82D-73F9-6BD2-E2BE30D62048">
+<Column name="email" id="23730EB5-6D28-447C-0647-14DB98E7F1C1">
 <createdBy>Kuba</createdBy>
-<createdTime>2020-03-30 08:26:26 UTC</createdTime>
-<generatorID>BEB2B46B-B7BC-5D8D-97D2-32DECC7AF5F9</generatorID>
-<ownerDesignName>Projekt_Bazy</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>60</dataTypeSize>
-<ownDataTypeParameters>60,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="miasto" id="D0B8A43B-0A59-EB1F-1819-F17953B21B93">
-<createdBy>Kuba</createdBy>
-<createdTime>2020-03-30 08:26:26 UTC</createdTime>
-<generatorID>FAD6CAFA-1323-9385-6405-F0D7E5667EB2</generatorID>
-<ownerDesignName>Projekt_Bazy</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>60</dataTypeSize>
-<ownDataTypeParameters>60,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="numer_domu" id="B85142B8-1E23-0A7F-BB1C-A2A1A283804B">
-<createdBy>Kuba</createdBy>
-<createdTime>2020-03-30 08:26:26 UTC</createdTime>
-<generatorID>052C3FE5-F5EC-74EC-EAF8-84F1093835D5</generatorID>
-<ownerDesignName>Projekt_Bazy</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>5</dataTypeSize>
-<ownDataTypeParameters>5,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="kod_pocztowy" id="84B71613-272D-E116-E82C-5C6C5F9241E3">
-<createdBy>Kuba</createdBy>
-<createdTime>2020-03-30 08:26:26 UTC</createdTime>
-<generatorID>06F846B3-8178-9368-EF6A-A46320DACE4C</generatorID>
-<ownerDesignName>Projekt_Bazy</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>10</dataTypeSize>
-<ownDataTypeParameters>10,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="email" id="75CC679B-E235-66A1-A4E7-44974678FB47">
-<createdBy>Kuba</createdBy>
-<createdTime>2020-03-30 08:26:26 UTC</createdTime>
+<createdTime>2020-03-31 14:31:06 UTC</createdTime>
 <generatorID>7BAF1E4B-C802-5AB3-C511-9C7579DFF60E</generatorID>
 <ownerDesignName>Projekt_Bazy</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
@@ -127,9 +81,9 @@
 <ownDataTypeParameters>60,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="numer_telefonu" id="6131FA7C-02E2-48B1-B843-041383D1678F">
+<Column name="numer_telefonu" id="12A5C902-B8C0-5CB2-1823-1A70793761DC">
 <createdBy>Kuba</createdBy>
-<createdTime>2020-03-30 08:26:26 UTC</createdTime>
+<createdTime>2020-03-31 14:31:06 UTC</createdTime>
 <generatorID>1079085D-45AB-0CE1-8187-92D834B10782</generatorID>
 <ownerDesignName>Projekt_Bazy</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
@@ -140,18 +94,44 @@
 <ownDataTypeParameters>45,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
+<Column name="Lokalizacja_id" id="2EE5CC5C-AC1A-EDF4-E2C3-DC775ED95DA3">
+<createdBy>Kuba</createdBy>
+<createdTime>2020-03-31 14:31:06 UTC</createdTime>
+<generatorID>F37D9A36-FC17-92AE-A81A-B2E7E3010659</generatorID>
+<ownerDesignName>Projekt_Bazy</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F5C58D9A-B390-6788-5150-4E63A2D4CD1C" referredColumn="95A518A5-1304-27D9-4304-44EE577992F5"/>
+</associations>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="BFD1D788-65AC-2237-E8D3-2A52072FFDA4" name="Klient_PK">
+<ind_PK_UK id="F3CFD8F3-DD43-14C2-0446-B2BA839474EA" name="Klient_PK">
 <createdBy>Kuba</createdBy>
-<createdTime>2020-03-30 08:26:26 UTC</createdTime>
+<createdTime>2020-03-31 14:31:06 UTC</createdTime>
 <generatorID>3702B450-E4EC-955D-C763-57EE423C8930</generatorID>
 <ownerDesignName>Projekt_Bazy</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="3AE0C62F-7E42-D58F-881E-807CAB61A3CC"/>
+<colUsage columnID="3C2093C8-49A2-795B-D316-A1F487A479ED"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4AC3A5AF-1CB4-1DA6-485E-51016C0A7B7B" name="Klient_Lokalizacja_FK">
+<createdBy>Kuba</createdBy>
+<createdTime>2020-03-31 14:31:06 UTC</createdTime>
+<generatorID>44B16561-1ADB-B1EA-C932-17C3C2F5901D</generatorID>
+<ownerDesignName>Projekt_Bazy</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2EE5CC5C-AC1A-EDF4-E2C3-DC775ED95DA3"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

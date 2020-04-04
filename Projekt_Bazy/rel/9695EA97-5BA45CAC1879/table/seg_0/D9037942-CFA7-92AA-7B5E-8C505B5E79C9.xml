@@ -1,27 +1,41 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B0D99221-AE9D-E294-D8B1-DA5DD2C5CE74" name="Samochod_Kategoria">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D9037942-CFA7-92AA-7B5E-8C505B5E79C9" name="Samochod_Kategoria">
 <createdBy>Kuba</createdBy>
-<createdTime>2020-03-30 08:26:26 UTC</createdTime>
+<createdTime>2020-03-31 14:31:06 UTC</createdTime>
 <generatorID>288DC487-7142-70B0-34A9-09EF53B380B5</generatorID>
 <ownerDesignName>Projekt_Bazy</ownerDesignName>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="id" id="48D53500-5765-37C1-7153-EE1879AD0386">
+<Column name="id" id="22CA9DD7-21A9-63F0-0344-D17D59AD37CA">
 <createdBy>Kuba</createdBy>
-<createdTime>2020-03-30 08:26:26 UTC</createdTime>
+<createdTime>2020-03-31 14:31:06 UTC</createdTime>
 <generatorID>1D0A0CBE-45EE-F78A-C51B-81F7334F70CC</generatorID>
 <ownerDesignName>Projekt_Bazy</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="cena_za_godzine" id="BECE84E3-516F-49FA-0C52-433D75B52288">
+<Column name="nazwa" id="AC26DC2C-AAD4-969F-1773-7A5E6EF4045D">
 <createdBy>Kuba</createdBy>
-<createdTime>2020-03-30 08:26:26 UTC</createdTime>
+<createdTime>2020-03-31 14:31:06 UTC</createdTime>
+<generatorID>656FEB2F-2DAB-FDAB-43F5-FA98E05B1847</generatorID>
+<ownerDesignName>Projekt_Bazy</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>45</dataTypeSize>
+<ownDataTypeParameters>45,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cena_za_godzine" id="3F818261-245F-BEB4-36DF-2481CC8429A0">
+<createdBy>Kuba</createdBy>
+<createdTime>2020-03-31 14:31:06 UTC</createdTime>
 <generatorID>35EF5CEF-0665-D3B9-30B6-8239F119B0BD</generatorID>
 <ownerDesignName>Projekt_Bazy</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
@@ -31,9 +45,9 @@
 <ownDataTypeParameters>,28,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="cena_za_dzien" id="C6D2957B-1796-5239-4CE3-05ACEF47197F">
+<Column name="cena_za_dzien" id="F4CF47EC-9308-9A81-167C-3DBFEEB24C63">
 <createdBy>Kuba</createdBy>
-<createdTime>2020-03-30 08:26:26 UTC</createdTime>
+<createdTime>2020-03-31 14:31:06 UTC</createdTime>
 <generatorID>CCB430C7-5F9D-D798-A161-12CD68CDA03F</generatorID>
 <ownerDesignName>Projekt_Bazy</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
@@ -46,16 +60,16 @@
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="A0DF8081-3AB1-BE14-68E0-0A2AE2E22232" name="Samochod_Kategoria_PK">
+<ind_PK_UK id="74F3D5D6-FA60-2693-B5D7-C85E6030DE06" name="Samochod_Kategoria_PK">
 <createdBy>Kuba</createdBy>
-<createdTime>2020-03-30 08:26:26 UTC</createdTime>
+<createdTime>2020-03-31 14:31:06 UTC</createdTime>
 <generatorID>FFAFB5A3-6943-6CBB-0144-3B0D053396E9</generatorID>
 <ownerDesignName>Projekt_Bazy</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="48D53500-5765-37C1-7153-EE1879AD0386"/>
+<colUsage columnID="22CA9DD7-21A9-63F0-0344-D17D59AD37CA"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

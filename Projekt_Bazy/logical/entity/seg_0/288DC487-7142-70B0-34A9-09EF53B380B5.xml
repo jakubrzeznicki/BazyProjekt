@@ -27,6 +27,19 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="nazwa" id="656FEB2F-2DAB-FDAB-43F5-FA98E05B1847">
+<createdBy>Kuba</createdBy>
+<createdTime>2020-03-30 11:52:06 UTC</createdTime>
+<ownerDesignName>Projekt_Bazy</ownerDesignName>
+<engineerTo>
+<item key="9695EA97-BD08-E22E-7B43-5BA45CAC1879" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>45</dataTypeSize>
+<ownDataTypeParameters>45,,</ownDataTypeParameters>
+</Attribute>
 <Attribute name="cena_za_godzine" id="35EF5CEF-0665-D3B9-30B6-8239F119B0BD">
 <createdBy>Kuba</createdBy>
 <createdTime>2020-03-30 07:26:12 UTC</createdTime>

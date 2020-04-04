@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relacja_Wypozyczenie_Platnosc" directorySegmentName="seg_0" id="010245CD-5FC3-261B-089E-7312CD282AFA">
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relacja_Rodzaj_Platnosc_Wypozyczenie" directorySegmentName="seg_0" id="010245CD-5FC3-261B-089E-7312CD282AFA">
 <createdBy>Kuba</createdBy>
 <createdTime>2020-03-22 08:26:46 UTC</createdTime>
 <ownerDesignName>Projekt_Bazy</ownerDesignName>
@@ -11,9 +11,9 @@
 <identifying>false</identifying>
 <optionalSource>true</optionalSource>
 <optionalTarget>false</optionalTarget>
-<sourceCardinality>1</sourceCardinality>
+<sourceCardinality>*</sourceCardinality>
 <sourceEntity>E0C3C99C-A3A8-F4A1-5FE8-DCE6AFFC9DC4</sourceEntity>
-<targetCardinalityString>*</targetCardinalityString>
+<targetCardinalityString>1</targetCardinalityString>
 <targetEntity>1F8B8615-1A54-5808-698E-35D09170A004</targetEntity>
 <transferable>true</transferable>
 <deleteRule>NO ACTION</deleteRule>

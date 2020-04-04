@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relacja_Lokolizacja_Klient" directorySegmentName="seg_0" id="44B16561-1ADB-B1EA-C932-17C3C2F5901D">
+<createdBy>Kuba</createdBy>
+<createdTime>2020-03-31 14:22:36 UTC</createdTime>
+<ownerDesignName>Projekt_Bazy</ownerDesignName>
+<engineerTo>
+<item key="9695EA97-BD08-E22E-7B43-5BA45CAC1879" value="true"/>
+</engineerTo>
+<sourcePk>8F2C7F09-1DA7-50CF-51F5-55A5678CEB5D</sourcePk>
+<targetPk>3702B450-E4EC-955D-C763-57EE423C8930</targetPk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>238C3FBF-C2F4-B7E4-D1D3-C3FF8B70A9D4</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>B286E904-E658-3E3E-DD28-779DE3B9C2BF</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
