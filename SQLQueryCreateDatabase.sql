@@ -65,8 +65,8 @@ GO
 CREATE TABLE Rodzaj_Platnosci 
     (
      id INTEGER NOT NULL IDENTITY NOT FOR REPLICATION , 
-     nazwa VARCHAR NOT NULL , 
-     data DATE NOT NULL 
+     nazwa VARCHAR NOT NULL
+
     )
 GO
 
