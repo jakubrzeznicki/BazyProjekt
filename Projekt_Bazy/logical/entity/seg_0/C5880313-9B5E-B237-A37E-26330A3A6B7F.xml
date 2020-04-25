@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="C5880313-9B5E-B237-A37E-26330A3A6B7F" name="Samochód">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="C5880313-9B5E-B237-A37E-26330A3A6B7F" name="Samochod">
 <createdBy>Kuba</createdBy>
 <createdTime>2020-03-21 12:57:01 UTC</createdTime>
 <ownerDesignName>Projekt_Bazy</ownerDesignName>
@@ -34,7 +34,6 @@
 <engineerTo>
 <item key="9695EA97-BD08-E22E-7B43-5BA45CAC1879" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
@@ -48,21 +47,6 @@
 <engineerTo>
 <item key="9695EA97-BD08-E22E-7B43-5BA45CAC1879" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>60</dataTypeSize>
-<ownDataTypeParameters>60,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="kolor" id="DA7ADA0E-532F-A0EA-3B30-D8929EA241A0">
-<createdBy>Kuba</createdBy>
-<createdTime>2020-03-21 13:07:06 UTC</createdTime>
-<ownerDesignName>Projekt_Bazy</ownerDesignName>
-<engineerTo>
-<item key="9695EA97-BD08-E22E-7B43-5BA45CAC1879" value="true"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
@@ -100,7 +84,6 @@
 <engineerTo>
 <item key="9695EA97-BD08-E22E-7B43-5BA45CAC1879" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
@@ -119,9 +102,63 @@
 <dataTypeSize>11</dataTypeSize>
 <ownDataTypeParameters>11,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="dostepnosc" id="1E41A396-FC58-D22F-B045-68C8EB44B02F">
+<createdBy>Kuba</createdBy>
+<createdTime>2020-03-30 07:21:44 UTC</createdTime>
+<ownerDesignName>Projekt_Bazy</ownerDesignName>
+<engineerTo>
+<item key="9695EA97-BD08-E22E-7B43-5BA45CAC1879" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="kolor" id="DA7ADA0E-532F-A0EA-3B30-D8929EA241A0">
+<createdBy>Kuba</createdBy>
+<createdTime>2020-03-21 13:07:06 UTC</createdTime>
+<ownerDesignName>Projekt_Bazy</ownerDesignName>
+<engineerTo>
+<item key="9695EA97-BD08-E22E-7B43-5BA45CAC1879" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>60,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ilosc_siedzen" id="B4DB73D1-C23E-511B-1618-0D6D8BAC9ED0">
+<createdBy>Kuba</createdBy>
+<createdTime>2020-03-30 08:00:27 UTC</createdTime>
+<ownerDesignName>Projekt_Bazy</ownerDesignName>
+<engineerTo>
+<item key="9695EA97-BD08-E22E-7B43-5BA45CAC1879" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_samochod_kategoria" id="B46BF9C6-0412-6A4A-06F1-9F58CEBC2F84">
+<createdBy>Kuba</createdBy>
+<createdTime>2020-03-30 07:30:26 UTC</createdTime>
+<generatorID>C8F4D482-C6AC-F5D3-81ED-DF6F89C0D8DB</generatorID>
+<ownerDesignName>Projekt_Bazy</ownerDesignName>
+<engineerTo>
+<item key="9695EA97-BD08-E22E-7B43-5BA45CAC1879" value="true"/>
+</engineerTo>
+<referedAttribute>1D0A0CBE-45EE-F78A-C51B-81F7334F70CC</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="A0BAB35C-DE43-5EBE-4DC6-BD24E2C20A61" name="Samochód PK">
+<identifier id="A0BAB35C-DE43-5EBE-4DC6-BD24E2C20A61" name="Samochod PK">
 <createdBy>Kuba</createdBy>
 <createdTime>2020-03-21 12:57:18 UTC</createdTime>
 <ownerDesignName>Projekt_Bazy</ownerDesignName>
@@ -130,6 +167,7 @@
 <item key="9695EA97-BD08-E22E-7B43-5BA45CAC1879" value="false"/>
 </engineerTo>
 <pk>true</pk>
+<newElementsIDs>B0B2727C-7F84-67C5-3BD4-C0873C35750A</newElementsIDs>
 <usedAttributes>
 <attributeRef>B0B2727C-7F84-67C5-3BD4-C0873C35750A</attributeRef>
 </usedAttributes>

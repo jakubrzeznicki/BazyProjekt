@@ -1,27 +1,29 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DBEE37A5-69DC-170C-A2B8-216CCA8D5EBF" name="Pracownik">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="510DBDCD-CB92-E604-4304-8A0BFD7AB5E3" name="Pracownik">
 <createdBy>Kuba</createdBy>
-<createdTime>2020-03-24 12:29:55 UTC</createdTime>
+<createdTime>2020-03-31 14:31:06 UTC</createdTime>
 <generatorID>C4AF804B-B545-9B68-775A-555193157822</generatorID>
 <ownerDesignName>Projekt_Bazy</ownerDesignName>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="id" id="4E1B145F-ED4A-EE42-C67B-B4400746824F">
+<Column name="id" id="82DE56F4-4F0F-BF0F-F942-9CA9E129C748">
 <createdBy>Kuba</createdBy>
-<createdTime>2020-03-24 12:29:55 UTC</createdTime>
+<createdTime>2020-03-31 14:31:06 UTC</createdTime>
 <generatorID>F8B5D364-22E8-BE89-A431-DCDFA9532249</generatorID>
 <ownerDesignName>Projekt_Bazy</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="imie" id="0F9D91E4-31E4-8495-6741-6D02972B9EB8">
+<Column name="imie" id="C1127D88-3073-5399-5F98-EDDB8F100137">
 <createdBy>Kuba</createdBy>
-<createdTime>2020-03-24 12:29:55 UTC</createdTime>
+<createdTime>2020-03-31 14:31:06 UTC</createdTime>
 <generatorID>CFA87901-36D7-9843-07EC-8882672540CC</generatorID>
 <ownerDesignName>Projekt_Bazy</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
@@ -31,9 +33,9 @@
 <ownDataTypeParameters>60,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="nazwisko" id="4B811CA3-9B87-70F2-2A22-260ABDFA6F63">
+<Column name="nazwisko" id="47C5BFF3-A912-0A3B-0E61-5454B8D9F035">
 <createdBy>Kuba</createdBy>
-<createdTime>2020-03-24 12:29:55 UTC</createdTime>
+<createdTime>2020-03-31 14:31:06 UTC</createdTime>
 <generatorID>896D85B5-F6AA-D090-ED15-9F506010973C</generatorID>
 <ownerDesignName>Projekt_Bazy</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
@@ -43,9 +45,9 @@
 <ownDataTypeParameters>60,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="data_urodzin" id="FE97EFBE-F521-207C-1E4D-59A5FDC5E322">
+<Column name="data_urodzin" id="A1BF0F17-B24D-C9C1-8E09-D0BEBA148DCB">
 <createdBy>Kuba</createdBy>
-<createdTime>2020-03-24 12:29:55 UTC</createdTime>
+<createdTime>2020-03-31 14:31:06 UTC</createdTime>
 <generatorID>85BAE4A9-7B5D-0EE9-848F-6EE591B7880A</generatorID>
 <ownerDesignName>Projekt_Bazy</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
@@ -54,9 +56,9 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="stanowisko" id="8D9F720B-86C7-81D1-181F-20382CD364ED">
+<Column name="stanowisko" id="925073E9-4482-37B1-D140-1DF8DF76EEB3">
 <createdBy>Kuba</createdBy>
-<createdTime>2020-03-24 12:29:55 UTC</createdTime>
+<createdTime>2020-03-31 14:31:06 UTC</createdTime>
 <generatorID>801E39E8-84E4-DB68-DC43-7D389E4CFF4A</generatorID>
 <ownerDesignName>Projekt_Bazy</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
@@ -66,9 +68,20 @@
 <ownDataTypeParameters>60,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="pensja" id="C496CFFB-28C0-D46D-8BE8-3A68E1D23C3E">
+<Column name="data_zatrudnienia" id="9F4D0C90-E352-09A9-8C6C-22337D282605">
 <createdBy>Kuba</createdBy>
-<createdTime>2020-03-24 12:29:55 UTC</createdTime>
+<createdTime>2020-03-31 14:31:06 UTC</createdTime>
+<generatorID>712E13A7-AC5C-3F7A-86C8-6CB8A38AA157</generatorID>
+<ownerDesignName>Projekt_Bazy</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="pensja" id="4D811DBF-360B-B55A-1CF2-DA275EB3E324">
+<createdBy>Kuba</createdBy>
+<createdTime>2020-03-31 14:31:06 UTC</createdTime>
 <generatorID>4463D965-108C-5C67-7198-54D7E94EF518</generatorID>
 <ownerDesignName>Projekt_Bazy</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
@@ -78,20 +91,9 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="data_zatrudnienia" id="8DB845E6-0CCE-0E6C-8D37-C7097FB82E25">
+<Column name="email" id="D9BCD772-22CB-0A42-E99E-D82771D893F1">
 <createdBy>Kuba</createdBy>
-<createdTime>2020-03-24 12:29:55 UTC</createdTime>
-<generatorID>712E13A7-AC5C-3F7A-86C8-6CB8A38AA157</generatorID>
-<ownerDesignName>Projekt_Bazy</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT007</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="email" id="54E2766A-CD8E-35AE-D30D-D6E7451ED9BA">
-<createdBy>Kuba</createdBy>
-<createdTime>2020-03-24 12:29:55 UTC</createdTime>
+<createdTime>2020-03-31 14:31:06 UTC</createdTime>
 <generatorID>45344DDC-04BC-49F9-1594-0369D2FB809E</generatorID>
 <ownerDesignName>Projekt_Bazy</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
@@ -102,9 +104,9 @@
 <ownDataTypeParameters>60,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="numer_telefonu" id="5E059047-0ADF-398F-E74B-A8942F2A1297">
+<Column name="numer_telefonu" id="656B7793-A5DA-B53F-5D46-08965E16D71B">
 <createdBy>Kuba</createdBy>
-<createdTime>2020-03-24 12:29:55 UTC</createdTime>
+<createdTime>2020-03-31 14:31:06 UTC</createdTime>
 <generatorID>6B0F3798-2D10-23D4-7036-83225E4A7C79</generatorID>
 <ownerDesignName>Projekt_Bazy</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
@@ -115,18 +117,44 @@
 <ownDataTypeParameters>45,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
+<Column name="Lokalizacja_id" id="B8721DE3-398A-7E22-E391-EF00578D4D56">
+<createdBy>Kuba</createdBy>
+<createdTime>2020-03-31 14:31:06 UTC</createdTime>
+<generatorID>AE3877C2-71A6-7E64-5AC2-B96BCF74DC2C</generatorID>
+<ownerDesignName>Projekt_Bazy</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A3508718-7D74-418B-B40E-FCC66A835595" referredColumn="95A518A5-1304-27D9-4304-44EE577992F5"/>
+</associations>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="6C4A6B51-F9C9-D0A9-C8E9-84A009375A00" name="Pracownik_PK">
+<ind_PK_UK id="DCC83821-BE3D-2BD0-5426-1ED2DF130DE0" name="Pracownik_PK">
 <createdBy>Kuba</createdBy>
-<createdTime>2020-03-24 12:29:55 UTC</createdTime>
+<createdTime>2020-03-31 14:31:06 UTC</createdTime>
 <generatorID>B6EB3A66-C10B-95D6-A425-99DBE91B83C3</generatorID>
 <ownerDesignName>Projekt_Bazy</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="4E1B145F-ED4A-EE42-C67B-B4400746824F"/>
+<colUsage columnID="82DE56F4-4F0F-BF0F-F942-9CA9E129C748"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9A2CE231-8FD5-5927-E430-934DFD2258F1" name="Pracownik_Lokalizacja_FK">
+<createdBy>Kuba</createdBy>
+<createdTime>2020-03-31 14:31:06 UTC</createdTime>
+<generatorID>16C9E867-02A5-C6F5-9211-F39CB7E3EEA1</generatorID>
+<ownerDesignName>Projekt_Bazy</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B8721DE3-398A-7E22-E391-EF00578D4D56"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

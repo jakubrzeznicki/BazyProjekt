@@ -1,0 +1,171 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="14A7B9B3-E28C-21D1-EA98-A9E80AC65A69" name="Samochod">
+<createdBy>Kuba</createdBy>
+<createdTime>2020-03-31 14:31:06 UTC</createdTime>
+<generatorID>C5880313-9B5E-B237-A37E-26330A3A6B7F</generatorID>
+<ownerDesignName>Projekt_Bazy</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="1FAF7300-FCEC-8DB2-3296-46219BD2991D">
+<createdBy>Kuba</createdBy>
+<createdTime>2020-03-31 14:31:06 UTC</createdTime>
+<generatorID>B0B2727C-7F84-67C5-3BD4-C0873C35750A</generatorID>
+<ownerDesignName>Projekt_Bazy</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="marka" id="5DA1B197-BEBC-C3F5-840E-A82309F574CE">
+<createdBy>Kuba</createdBy>
+<createdTime>2020-03-31 14:31:06 UTC</createdTime>
+<generatorID>DCB26C83-CE99-07B3-D4E8-2A6084F842C4</generatorID>
+<ownerDesignName>Projekt_Bazy</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>60,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="model" id="998C84E2-1B66-A1EB-EC00-74B2E531A9A8">
+<createdBy>Kuba</createdBy>
+<createdTime>2020-03-31 14:31:06 UTC</createdTime>
+<generatorID>13FECC18-2454-F843-A4F0-A381F968773D</generatorID>
+<ownerDesignName>Projekt_Bazy</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>60,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="przebieg" id="75A5906B-785E-2381-F7B1-4A2DD60CF9FF">
+<createdBy>Kuba</createdBy>
+<createdTime>2020-03-31 14:31:06 UTC</createdTime>
+<generatorID>C61641B2-18A3-6C3F-931C-D3AB51407FD1</generatorID>
+<ownerDesignName>Projekt_Bazy</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="rok_produkcji" id="B6774863-3C48-E614-D3B8-4EB352A7AF81">
+<createdBy>Kuba</createdBy>
+<createdTime>2020-03-31 14:31:06 UTC</createdTime>
+<generatorID>7701B9D2-E423-3CE1-98AD-A7D5A666A83F</generatorID>
+<ownerDesignName>Projekt_Bazy</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="pojemnosc_silnika" id="C68C0E16-AB2B-1C22-6CE2-A6CECF68B036">
+<createdBy>Kuba</createdBy>
+<createdTime>2020-03-31 14:31:06 UTC</createdTime>
+<generatorID>9D45F18D-8512-3296-DAC2-C5513BFA613A</generatorID>
+<ownerDesignName>Projekt_Bazy</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="numer_rejestracyjny" id="9CDDD919-9359-6EBD-DC5C-727C6C03BF17">
+<createdBy>Kuba</createdBy>
+<createdTime>2020-03-31 14:31:06 UTC</createdTime>
+<generatorID>746B00AD-B6CD-6A1D-36B6-CBFF033768FC</generatorID>
+<ownerDesignName>Projekt_Bazy</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>11,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dostepnosc" id="7252D22B-494D-C402-36D0-C303191FB8B8">
+<createdBy>Kuba</createdBy>
+<createdTime>2020-03-31 14:31:06 UTC</createdTime>
+<generatorID>1E41A396-FC58-D22F-B045-68C8EB44B02F</generatorID>
+<ownerDesignName>Projekt_Bazy</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="kolor" id="8323DD5F-75C3-A10B-67B4-64D8142AA804">
+<createdBy>Kuba</createdBy>
+<createdTime>2020-03-31 14:31:06 UTC</createdTime>
+<generatorID>DA7ADA0E-532F-A0EA-3B30-D8929EA241A0</generatorID>
+<ownerDesignName>Projekt_Bazy</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>60,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ilosc_siedzen" id="6E18E689-0FCF-5E1E-BE5E-C4393441B7CD">
+<createdBy>Kuba</createdBy>
+<createdTime>2020-03-31 14:31:06 UTC</createdTime>
+<generatorID>B4DB73D1-C23E-511B-1618-0D6D8BAC9ED0</generatorID>
+<ownerDesignName>Projekt_Bazy</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Samochod_Kategoria_id" id="99DE26E4-FC5C-68A6-0223-6B45C8D8C5AB">
+<createdBy>Kuba</createdBy>
+<createdTime>2020-03-31 14:31:06 UTC</createdTime>
+<generatorID>B46BF9C6-0412-6A4A-06F1-9F58CEBC2F84</generatorID>
+<ownerDesignName>Projekt_Bazy</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A5800CC0-FE93-21E4-D7BD-EA4B7E2EB249" referredColumn="22CA9DD7-21A9-63F0-0344-D17D59AD37CA"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="12E7F15C-37F8-754E-9EA3-E613D7896A7F" name="Samochod_PK">
+<createdBy>Kuba</createdBy>
+<createdTime>2020-03-31 14:31:06 UTC</createdTime>
+<generatorID>A0BAB35C-DE43-5EBE-4DC6-BD24E2C20A61</generatorID>
+<ownerDesignName>Projekt_Bazy</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1FAF7300-FCEC-8DB2-3296-46219BD2991D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="234CCA0B-F965-65DB-C205-A93307E184F8" name="Samochod_Samochod_Kategoria_FK">
+<createdBy>Kuba</createdBy>
+<createdTime>2020-03-31 14:31:06 UTC</createdTime>
+<generatorID>C8F4D482-C6AC-F5D3-81ED-DF6F89C0D8DB</generatorID>
+<ownerDesignName>Projekt_Bazy</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="99DE26E4-FC5C-68A6-0223-6B45C8D8C5AB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

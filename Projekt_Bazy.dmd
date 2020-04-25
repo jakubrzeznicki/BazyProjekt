@@ -5,4 +5,9 @@
 <ownerDesignName>Projekt_Bazy</ownerDesignName>
 <capitalNames>false</capitalNames>
 <designId>166BAECC-B09E-9788-B311-970BE16814D8</designId>
+<usedDesignStorageDescriptors>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="B48E6F4E-16EA-0C18-3D79-4648B0FF0E1D">
+<designStoragePath>C:\aaa</designStoragePath>
+</designDescr>
+</usedDesignStorageDescriptors>
 </OSDM_Design>
