@@ -32,17 +32,6 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="data" id="BDFF105C-A372-272F-ED88-64B73BF4B715">
-<createdBy>Kuba</createdBy>
-<createdTime>2020-03-31 14:31:06 UTC</createdTime>
-<generatorID>B44A27E9-49C9-F8C3-1EBF-A982C3C523D8</generatorID>
-<ownerDesignName>Projekt_Bazy</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT007</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="8D10A60D-ED54-7845-A121-D9637260D8D1" name="Rodzaj_Platnosci_PK">
