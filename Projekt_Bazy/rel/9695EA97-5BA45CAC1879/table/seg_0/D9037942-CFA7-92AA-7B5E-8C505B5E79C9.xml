@@ -33,29 +33,27 @@
 <ownDataTypeParameters>45,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="cena_za_godzine" id="3F818261-245F-BEB4-36DF-2481CC8429A0">
-<createdBy>Kuba</createdBy>
-<createdTime>2020-03-31 14:31:06 UTC</createdTime>
-<generatorID>35EF5CEF-0665-D3B9-30B6-8239F119B0BD</generatorID>
-<ownerDesignName>Projekt_Bazy</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>28</dataTypePrecision>
-<ownDataTypeParameters>,28,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
 <Column name="cena_za_dzien" id="F4CF47EC-9308-9A81-167C-3DBFEEB24C63">
 <createdBy>Kuba</createdBy>
 <createdTime>2020-03-31 14:31:06 UTC</createdTime>
 <generatorID>CCB430C7-5F9D-D798-A161-12CD68CDA03F</generatorID>
 <ownerDesignName>Projekt_Bazy</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cena_za_godzine" id="3F818261-245F-BEB4-36DF-2481CC8429A0">
+<createdBy>Kuba</createdBy>
+<createdTime>2020-03-31 14:31:06 UTC</createdTime>
+<generatorID>35EF5CEF-0665-D3B9-30B6-8239F119B0BD</generatorID>
+<ownerDesignName>Projekt_Bazy</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>28</dataTypePrecision>
-<ownDataTypeParameters>,28,</ownDataTypeParameters>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 </columns>

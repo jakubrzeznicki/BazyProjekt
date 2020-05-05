@@ -40,19 +40,6 @@
 <dataTypeSize>45</dataTypeSize>
 <ownDataTypeParameters>45,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="cena_za_godzine" id="35EF5CEF-0665-D3B9-30B6-8239F119B0BD">
-<createdBy>Kuba</createdBy>
-<createdTime>2020-03-30 07:26:12 UTC</createdTime>
-<ownerDesignName>Projekt_Bazy</ownerDesignName>
-<engineerTo>
-<item key="9695EA97-BD08-E22E-7B43-5BA45CAC1879" value="true"/>
-</engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>28</dataTypePrecision>
-<ownDataTypeParameters>,28,</ownDataTypeParameters>
-</Attribute>
 <Attribute name="cena_za_dzien" id="CCB430C7-5F9D-D798-A161-12CD68CDA03F">
 <createdBy>Kuba</createdBy>
 <createdTime>2020-03-30 07:29:05 UTC</createdTime>
@@ -60,12 +47,23 @@
 <engineerTo>
 <item key="9695EA97-BD08-E22E-7B43-5BA45CAC1879" value="true"/>
 </engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cena_za_godzine" id="35EF5CEF-0665-D3B9-30B6-8239F119B0BD">
+<createdBy>Kuba</createdBy>
+<createdTime>2020-03-30 07:26:12 UTC</createdTime>
+<ownerDesignName>Projekt_Bazy</ownerDesignName>
+<engineerTo>
+<item key="9695EA97-BD08-E22E-7B43-5BA45CAC1879" value="true"/>
+</engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>28</dataTypePrecision>
-<ownDataTypeParameters>,28,</ownDataTypeParameters>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
